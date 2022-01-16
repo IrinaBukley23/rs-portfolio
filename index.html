@@ -4,8 +4,155 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Portfolio</h1>
+    <hedser>
+       <div class="logo">
+           <img src="img/icons/logo.png" alt="logo">
+       </div>
+       <nav class="menu">
+           <ul class="menu__list">
+               <li><a href="">Skills</a></li>
+               <li><a href="">Portfolio</a></li>
+               <li><a href="">Video</a></li>
+               <li><a href="">Price</a></li>
+               <li><a href="">Contacts</a></li>
+           </ul>
+       </nav>
+       <div class="lang">
+           <span>en / </span>
+           <span>ru</span>
+       </div>
+    </hedser>
+    <main>
+        <section class="hero">
+            <h1 class="hero__name">Alexa Rise</h1>
+            <div class="hero__descr">
+                <p>Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</p>
+            </div>
+            <button>Hire me</button>
+        </section>
+        <section class="skills">
+            <h2 class="title">Skills</h2>
+            <div class="container">
+                <div class="skills__item">
+                    <img src="img/icons/photpgraphy.png" alt="photo">
+                    <h4 class="skills__title">Digital photography</h4>
+                    <div class="skills__descr">
+                        <p>High-quality photos in the studio and on the nature</p>
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <img src="img/icons/video.png" alt="video">
+                    <h4 class="skills__title">Video shooting</h4>
+                    <div class="skills__descr">
+                        <p>Capture your moments so that they always stay with you</p>
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <img src="img/icons/retouch.png" alt="retouch">
+                    <h4 class="skills__title">Retouch</h4>
+                    <div class="skills__descr">
+                        <p>I strive to make photography surpass reality</p>
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <img src="img/icons/audio.png" alt="audio">
+                    <h4 class="skills__title">Audio</h4>
+                    <div class="skills__descr">
+                        <p>Professional sounds recording for video, advertising, portfolio</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio">
+            <h2 class="title">Portfolio</h2>
+            <div class="container">
+                <div class="portfoilo__tabs">
+                    <button>Winter</button>
+                    <button>Spring</button>
+                    <button>Summer</button>
+                    <button>Autumn</button>
+                </div>
+               <div class="portfolio__content">
+                   <div class="portfolio__content-item"><img src="img/works/portfolio-img-1.jpg" alt="work"></div>
+                   <div class="portfolio__content-item"><img src="img/works/portfolio-img-2.jpg" alt="work"></div>
+                   <div class="portfolio__content-item"><img src="img/works/portfolio-img-3.jpg" alt="work"></div>
+                   <div class="portfolio__content-item"><img src="img/works/portfolio-img-4.jpg" alt="work"></div>
+                   <div class="portfolio__content-item"><img src="img/works/portfolio-img-5.jpg" alt="work"></div>
+                   <div class="portfolio__content-item"><img src="img/works/portfolio-img-6.jpg" alt="work"></div>
+               </div>
+            </div>
+        </section>
+        <section class="video">
+            <h2 class="title">Video</h2>
+            <div class="video__wrapper">
+                <img src="img/video-player.jpg" alt="player">
+                <button><img src="img/icons/Play.png" alt="play"></button>
+            </div>
+        </section>
+        <section class="price">
+            <h2 class="title">Price</h2>
+            <div class="container">
+                <div class="price__card">
+                    <h4 class="price__card-title">Standard</h4>
+                    <p class="price__card-price">500 $</p>
+                    <p class="price__card-descr">One location
+                        120 photos in color
+                        12 photos in retouch
+                        Readiness 2-3 weeks
+                        Make up, visage</p>
+                    <button>Order shooting</button>
+                </div>
+                <div class="price__card">
+                    <h4 class="price__card-title">Premium</h4>
+                    <p class="price__card-price">700 $</p>
+                    <p class="price__card-descr">
+                        One or two locations
+                        200 photos in color
+                        20 photos in retouch
+                        Readiness 1-2 weeks
+                        Make up, visage</p>
+                    <button>Order shooting</button>
+                </div>
+                <div class="price__card">
+                    <h4 class="price__card-title">Gold</h4>
+                    <p class="price__card-price">1000 $</p>
+                    <p class="price__card-descr">Three locations or more
+                        300 photos in color
+                        50 photos in retouch
+                        Readiness 1 week
+                        Make up, visage, hairstyle</p>
+                    <button>Order shooting</button>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <h2 class="title">Contact me</h2>
+            <div class="container">
+                <form action="">
+                    <input type="email" placeholder="E-mail">
+                    <input type="phone" placeholder="Phone">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Send message"></textarea>
+                    <input type="submit" value="Send message">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__date">© 2022 github</div>
+        <div class="footer__name">Rolling Scopes School</div>
+        <div class="footer__social">
+            <ul class="social__list">
+                <li class="social__list-item">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
