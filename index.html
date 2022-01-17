@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Potfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
@@ -27,8 +28,8 @@
                     </ul>
                 </nav>
                 <div class="lang">
-                    <span>en / </span>
-                    <span> ru</span>
+                    <pre class="lang active">en  /</pre>
+                    <pre>  ru</pre>
                 </div>
             </div>
         </div>
@@ -145,27 +146,27 @@
             </div>
         </section>
         <section class="contacts">
-            <h2 class="title">Contact me</h2>
-            <div class="container">
+            <div class="contacts__wrapper">
+                <h2 class="contacts__title">Contact me</h2>
                 <form action="">
-                    <input type="email" placeholder="E-mail">
-                    <input type="phone" placeholder="Phone">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Send message"></textarea>
-                    <input type="submit" value="Send message">
+                    <input type="email" value="E-mail">
+                    <input type="phone" value="Phone">
+                    <textarea name="" id="" rows="3">Send message</textarea>
+                    <button class="contacts__btn" > Send message</button>
                 </form>
             </div>
         </section>
     </main>
     <footer>
-        <div class="footer__date">© 2022 github</div>
+        <div class="footer__date">© <span>2022</span> github</div>
         <div class="footer__name">Rolling Scopes School</div>
         <div class="footer__social">
             <ul class="social__list">
                 <li class="social__list-item">
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
                 </li>
             </ul>
         </div>

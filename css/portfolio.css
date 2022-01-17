@@ -30,6 +30,10 @@
 .portfolio__content-item {
     margin-left: 25px;
     margin-bottom: 25px;
+    width: 30%;
+}
+.portfolio__content-item img {
+    width: 100%;
 }
 .portfolio__content-item::first-child {
     margin-left: 0;
