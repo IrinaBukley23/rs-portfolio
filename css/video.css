@@ -1,0 +1,21 @@
+.video {
+    padding: 0 20px 100px;
+    background: #000000;
+}
+.video__wrapper {
+    margin-top: 60px;
+    min-height: 705px;
+    background: url('../img/video-player.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video__wrapper img {
+    cursor: pointer;
+}
+.video__wrapper img:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}

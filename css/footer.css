@@ -1,0 +1,22 @@
+footer {
+    padding: 50px 20px;
+    background: #000000;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.social__list-item a{
+    margin-left: 30px;
+    font-size: 26px;
+    color: #ffffff;
+}
+.social__list-item a:hover {
+    color: #BDAE82;
+}
+.footer__date span {
+    padding: 0 20px;
+}
+.footer__name, .footer__date {
+    font-size: 20px;
+    line-height: 50px;
+}

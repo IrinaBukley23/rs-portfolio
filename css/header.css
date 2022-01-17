@@ -1,0 +1,39 @@
+.header {
+    background-color: #000000;
+}
+.row {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: #ffffff;
+}
+.logo:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+        contrast(87%);
+}
+.menu__wrapper, .menu {
+    display: flex;
+}
+.menu__list, .lang {
+    display: flex;
+}
+.menu__list-item a, .lang{
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.menu__list-item a:hover {
+    color: #BDAE82;
+}
+.lang:hover {
+    color: #BDAE82;
+}
+.lang {
+    font-weight: bold;
+}
+.lang.active {
+    color: #BDAE82;
+}
