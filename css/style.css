@@ -19,12 +19,6 @@
     box-sizing: border-box;
 }
 
-.container{
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 .title{
     text-align: center;
     font-size: 2.5rem;
@@ -34,8 +28,8 @@
 
 .title::after, .title::before {
     content: '';
-    width: 4rem;
     height: 2px;
+    width: 250px;
     margin: 25px auto 0;
     background-color: #BDAE82;
 }
