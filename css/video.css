@@ -1,0 +1,17 @@
+.video {
+    padding: 100px 20px;
+    background: #000000;
+}
+.video__wrapper {
+    margin-top: 60px;
+    min-height: 705px;
+    background: url('../img/video-player.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video__wrapper img {
+
+}

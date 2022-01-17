@@ -1,0 +1,53 @@
+.price {
+    padding: 0 20px 100px;
+    background: #000000;
+}
+
+.price__wrapper {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.price__card {
+    border: 3px solid #BDAE82;
+    margin-left: 25px;
+}
+.price__card::first-child {
+    margin-left: 0;
+}
+.price__card-title {
+    margin-top: 43px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.price__card-price {
+    margin-top: 20px;
+    font-family: 'Merriweather';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    color: #BDAE82;
+}
+.price__card-descr {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.price__card button {
+    display: block;
+    margin: 40px auto;
+    padding: 8px 40px;
+    background: #BDAE82;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border: none;
+}
