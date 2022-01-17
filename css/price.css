@@ -52,3 +52,6 @@
     text-align: center;
     border: none;
 }
+.price__card button:hover {
+    color: #FFFFFF;
+}

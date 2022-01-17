@@ -43,3 +43,6 @@
     color: #000000;
     border: none;
 }
+.contacts__btn:hover {
+    color: #ffffff;
+}

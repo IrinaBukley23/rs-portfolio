@@ -17,6 +17,9 @@
     line-height: 40px;
     text-align: center;
 }
+.portfolio__tabs-btn:hover {
+    color: #ffffff;
+}
 .portfolio__tabs-btn.active {
     color: #000000;
     background-color: #BDAE82;

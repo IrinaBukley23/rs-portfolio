@@ -10,6 +10,9 @@ footer {
     margin-left: 30px;
     font-size: 26px;
 }
+.social__list-item a:hover {
+    color: #BDAE82;
+}
 .footer__date span {
     padding: 0 20px;
 }
