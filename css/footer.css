@@ -8,6 +8,7 @@ footer {
 .social__list-item a{
     margin-left: 30px;
     font-size: 26px;
+    color: #ffffff;
 }
 .social__list-item a:hover {
     color: #BDAE82;
