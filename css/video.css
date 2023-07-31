@@ -1,0 +1,130 @@
+.video {
+    padding: 0 20px 100px;
+    background: #000000;
+}
+.video.light-theme {
+    background-color: #fff;
+    color: #000000;
+  }
+.video__wrapper {
+    margin-top: 60px;
+    background: url('../img/video-player.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video__wrapper img {
+    cursor: pointer;
+    transition: ease-in 0.5s;
+}
+.video__wrapper img:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+
+.player {
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+    position: relative;
+    overflow: hidden;
+}
+.player__video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.player__button {
+    background:none;
+    border:0;
+    line-height:1;
+    color:white;
+    text-align: center;
+    outline:0;
+    padding: 0;
+    cursor:pointer;
+    max-width:50px;
+  }
+  .player__button:focus {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+  }
+  .player__slider {
+    width:10px;
+    height:30px;
+    margin: 0 15px;
+  }
+  .player__controls {
+    padding: 0 25px 0 10px;
+    align-items: center;
+    display:flex;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: 50px;
+    transform: translateY(100%) translateY(-5px);
+    transition:all .3s;
+    background:rgba(0,0,0,0.1);
+  }
+  
+  .player:hover .player__controls {
+    transform: translateY(0);
+  }
+  
+  .player:hover .progress {
+    height:10px;
+  }
+  
+  .player__controls > * {
+    flex:1;
+  }
+  
+  .progress {
+    margin: 0 15px;
+    flex: 3;
+    position: relative;
+    display:flex;
+    height:5px;
+    transition:height 0.3s;
+    background:rgba(0,0,0,0.5);
+    cursor:ew-resize;
+  }
+  
+  .progress__filled {
+    width:0%;
+    background:#BDAE82;
+    flex:0;
+    flex-basis:0%;
+  }
+
+  .toggle {
+      font-size: 20px;
+      margin: 0 15px;
+  }
+
+  .mute {
+    margin: 0 15px;
+    height: 36px;
+    width: 30px;
+    background: url('../assets/svg/mute.svg') no-repeat;
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+  }
+
+
+@media (max-width: 768px) {
+    .video__wrapper {
+        margin: 60px -35px 0;
+        min-height: 418px;
+    }
+}
+@media (max-width: 576px) {
+    .video__wrapper {
+        min-height: 250px;
+    }
+    .video__wrapper img {
+        width: 60px;
+    }
+}

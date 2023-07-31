@@ -1,0 +1,81 @@
+.price {
+    padding: 0 20px 100px;
+    background: #000000;
+    color: #FFFFFF;
+}
+.price.light-theme {
+    background-color: #fff;
+    color: #000000;
+  }
+.price__wrapper {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.price__card {
+    width: 30%;
+    border: 3px solid #BDAE82;
+    margin: 0 15px;
+}
+.price__card::first-child {
+    margin-left: 0;
+}
+.price__card-title {
+    margin-top: 43px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 56px;
+    text-align: center;
+}
+.price__card-price {
+    margin-top: 20px;
+    font-family: 'Merriweather';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    color: #BDAE82;
+}
+.price__card-descr {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+}
+.price__card button {
+    display: block;
+    margin: 40px auto;
+    padding: 8px 40px;
+    background: #BDAE82;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    transition: ease-in 0.5s;
+}
+.price__card button:hover {
+    color: #FFFFFF;
+}
+@media (max-width: 992px) {
+    .price__card {
+        width: 60%;
+        margin: 25px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .price__card {
+        width: 60%;
+        margin: 25px auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .price__card {
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,111 @@
+.portfolio {
+    padding: 10px 20px 100px;
+    background: #000000;
+    color: #ffffff;
+}
+.portfolio.light-theme {
+    background-color: #fff;
+    color: #000000;
+  }
+.portfoilo__tabs {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.portfolio__btn {
+    margin-left: 5px;
+    padding: 8px 73px;
+    border: 2px solid #BDAE82;
+    color: #BDAE82;
+    background-color: #000000;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    transition: ease-in 0.5s;
+}
+.portfolio__btn:hover, .portfolio__btn_active:hover {
+    color: #ffffff;
+}
+.portfolio__btn.light-theme {
+    background-color: #ffffff;
+}
+.portfolio__btn-active, .portfolio__btn-active.light-theme {
+    color: #000000;
+    background-color: #BDAE82;
+}
+
+.portfolio__content {
+    margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.show {
+    display: flex;
+}
+.hide {
+    display:none;
+}
+.fade {
+    animation-name: fade;animation-duration: 1.5s
+} 
+@keyframes fade {
+    from{
+        opacity: 0.1;
+    }to{
+        opacity: 1;
+    }
+}
+.portfolio__image{
+    display: block;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    width: 30%;
+}
+.portfolio__image img {
+    width: 100%;
+}
+.portfolio__image::first-child {
+    margin-left: 0;
+}
+
+@media (max-width: 992px) {
+    .portfolio__tabs-btn {
+        margin-bottom: 5px;
+        width: 34%;
+    }
+    .portfolio__image {
+        width: 450px;
+        height: 560px;
+        margin-left: 0;
+    }
+}
+@media (max-width: 992px) {
+    .portfolio__btn {
+        margin-bottom: 5px;
+        width: 35%;
+    }
+}
+
+@media (max-width: 768px) {
+    .portfolio__tabs-btn {
+        margin-bottom: 5px;
+        width: 34%;
+    }
+    .portfolio__image {
+        width: 450px;
+        height: 560px;
+        margin-left: 0;
+    }
+}
+@media (max-width: 576px) {
+    .portfolio__tabs-btn {
+        width: 100%;
+    }
+    .portfolio__image {
+        width: 100%;
+        height: auto;
+
+    }
+}
