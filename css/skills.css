@@ -60,7 +60,16 @@
         margin-bottom: 75px;
     }
 }
+@media (max-width: 707px) {
+    .skills__item {
+        width: 60%;
+        margin: 25px auto;
+    }
+}
 @media (max-width: 576px) {
+    .skills__item {
+        width: 90%;
+    }
     .skills__wrapper {
         justify-content: center;
 

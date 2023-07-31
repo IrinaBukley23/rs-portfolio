@@ -169,6 +169,19 @@
        font-size: 20px;
    }
    .lang {
-    margin-right: 50px;
+    margin-right: 120px;
 }
 }
+@media (max-width: 455px) {
+   .lang {
+        margin-right: 70px;
+    }
+    .theme-icon {
+        margin-left: 10px;
+    }
+}
+@media (max-width: 365px) {
+    .gap {
+        display: none;
+    }
+ }
